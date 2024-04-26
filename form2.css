@@ -12,6 +12,7 @@ img {
     filter: blur(5px);
     position: fixed;
     width: 100%;
+    height: 100%;
     
 }
 .container{
@@ -122,4 +123,24 @@ img {
     flex-direction: column;
     align-items: center;
     z-index: 2000px;
+}
+
+@media (max-width: 475px){
+    .form {
+        width: 400px;
+    }
+
+    #user {
+        width: 350px ;
+    }
+}
+
+@media (max-width: 405px){
+    .form {
+        width: 300px;
+    }
+
+    #user {
+        width: 250px ;
+    }
 }
